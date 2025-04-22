@@ -27,7 +27,7 @@ int main()
 
     // Load the font once, outside the loop
     Font font;
-    if (!font.loadFromFile("GameEnemiesDemoRegular.ttf"))
+    if (!font.loadFromFile("Roboto-Regular.ttf"))
     {
         cout << "Font did not load" << endl;
         return -1;
