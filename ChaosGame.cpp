@@ -35,7 +35,7 @@ int main()
 
     Text text;
     text.setFont(font);
-    text.setString("Click 3 spots to make a triangle. The 4th click is where your fractal will originate.");
+    text.setString("Click 3 spots to make a triangle. The 4th click will create the triangle.");
     text.setCharacterSize(36);
     text.setFillColor(Color::Magenta);
 
@@ -59,9 +59,9 @@ int main()
             {
                 if (event.mouseButton.button == sf::Mouse::Left)
                 {
-                    cout << "the left button was pressed" << std::endl;
-                    cout << "mouse x: " << event.mouseButton.x << std::endl;
-                    cout << "mouse y: " << event.mouseButton.y << std::endl;
+                    cout << "the left button was pressed" << endl;
+                    cout << "mouse x: " << event.mouseButton.x << endl;
+                    cout << "mouse y: " << event.mouseButton.y << endl;
 
                     if (vertices.size() < 3)
                     {
