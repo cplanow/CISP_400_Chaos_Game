@@ -29,8 +29,8 @@ The program operates in several steps:
    - Repeats this process 100 times per frame
 
 3. **Visualization**
-   - Triangle vertices are displayed as cyan squares (10x10 pixels)
-   - Fractal points are displayed as small green squares (2x2 pixels)
+   - Triangle vertices are displayed as cyan triangles (10x10 pixels)
+   - Fractal points are displayed as small green triangles (2x2 pixels)
    - Clear instructions are shown on screen in magenta text
 
 ## Controls
@@ -47,8 +47,8 @@ The program is built using several key components:
 ### Graphics
 - Window resolution: 1920x1080
 - Text: Magenta-colored instructions using Roboto Regular font
-- Vertices: Cyan squares (10x10 pixels)
-- Fractal points: Green squares (2x2 pixels)
+- Vertices: Cyan triangles (10x10 pixels)
+- Fractal points: Green triangles (2x2 pixels)
 
 ## Authors
 - Chris Planow
