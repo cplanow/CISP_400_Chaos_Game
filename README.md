@@ -36,7 +36,6 @@ The program operates in several steps:
 ## Controls
 - **Left Mouse Button**: Place points (first 3 for triangle, 4th for starting point)
 - **ESC**: Close the program
-- **Window Close Button**: Exit the program
 
 ## Implementation Details
 The program is built using several key components:
